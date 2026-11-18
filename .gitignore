@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Eclipse build output
+build/
+
+# Sensitive credentials
+fast2sms_verify.txt
+src/main/fast2sms_verify.txt
+src/main/webapp/fast2sms_verify.txt

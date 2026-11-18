@@ -1,0 +1,199 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+	 --bs-font:"Montserrat Alternates:ital";
+	 --bs-font1:"Platypi:ital";
+	  --bs-font2:"Madimi One";
+	  --bs-font3:"Anta";
+	   --bs-font4:"Agbalumo";
+	   --bs-font5:"Young+Serif";
+	   --bs-font6:"Sigmar";
+	   --bs-font7:"Homemade Apple", cursive;
+	     --bs-font8:"Playball", cursive;
+}
+.PDfont{
+	font-family:var(--bs-font5);
+	font-weight: 400;
+  font-style: italic;
+ 
+}
+
+  meta[name="fast2sms"] {
+    display: block !important; /* Or any value other than none */
+  }
+
+.platinum{
+	font-family:var(--bs-font8);
+	 font-weight: 400;
+  font-style: normal;
+}
+.signature{	
+	font-family:var(--bs-font7);
+	 font-weight: 400;
+  font-style: normal;
+  }
+.tableheading{
+	font-family:var(--bs-font6);
+	font-weight: 100;
+  font-style: normal;
+}
+.headingfont{
+	font-family: var(--bs-font);
+	 font-weight: 800;
+  font-style: italic;
+}
+.buttonfont{
+	font-family:var(--bs-font1);
+	 font-weight: 400;
+  font-style: italic;
+}
+.formfont{
+	font-family:var(--bs-font2);
+	font-weight: 400;
+  font-style: normal;
+	
+}
+.formheading{
+	 font-family:var(--bs-font3) ;
+  font-weight: 400;
+  font-style: normal;
+}
+.homebutton{
+	font-family:var(--bs-font4);
+	font-weight: 400;
+  font-style: normal;
+}
+#bg-1{
+
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url("../Images/Signup.jpg"); 
+    background-size: 100% 100%;
+
+    
+
+}
+.signupdf{
+	backdrop-filter: blur(10px) saturate(180%);
+}
+#kotak{
+    background:linear-gradient(rgba(72,127,179,0.4), rgba(0,0,0,0.8)), url("../Images/Service.jpg");
+    background-size: 100% 100%;
+  /*   height: 100vh; */
+    
+}
+#AddFundImg{
+	 background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("../Images/Addfunds.jpg");
+	     background-repeat: no-repeat; 
+	     background-size:100% 100%;
+}
+#Tfunds{
+	  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("../Images/Transferfund.jpg");
+	   background-size: 100% 100%;
+   
+}
+#Pdetails{
+		 background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../Images/Pdetails.jpg");
+	   background-size: 100% 100%;
+}
+.Wfunds{
+	 background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("../Images/WFunds.jpg");
+   
+    
+    background-size: 100% 100%;
+}
+.DepoF{
+	backdrop-filter: blur(10px) saturate(180%);
+}
+.WithF{
+	 backdrop-filter: blur(2px) saturate(180%) ; 
+
+}
+.PersWork{
+	backdrop-filter: blur(3px) saturate(180%) ; 
+}
+.TransF{
+	 backdrop-filter: blur(2px) saturate(180%) ; 
+}
+.Creditcard{
+	backdrop-filter: blur(3px) saturate(250%);
+}
+
+.bg-2{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url("../Images/Login1.jpg");
+    
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+#checking{
+	color:white;
+}
+
+.changDImg{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("../Images/ChangeD.jpg") ;
+    background-size: 100% 100%;
+ 
+    
+   }
+   .changeDBF{
+    backdrop-filter: blur(5px) saturate(250%);
+   }
+@media only screen and (min-width: 768px){
+    #Services{
+            margin-top: 40px;
+    }
+    #Info{
+        margin-top: 40px;
+    }
+    .bg-2{
+    	height: 100vh;
+    }
+    .Wfunds{
+  height: 100vh;
+    }
+   
+  
+   .PersWork{
+   	margin-top:6rem !important;
+   } 
+}
+@media only screen and (min-width: 1024px){
+	#AddFundImg{
+	height: 105vh;   
+	}
+	 #Pdetails{
+      height:100vh; 
+    }
+	#Tfunds{
+	 height: 106vh;
+	}
+	 .changDImg{
+        height: 100vh;
+   }
+	#kotak{
+	height:106vh;
+	}
+	
+}
+@media only screen and (min-width: 1440px){
+	
+	.PDfont{
+	 font-size: 30px; 
+	}	
+}
+
+
